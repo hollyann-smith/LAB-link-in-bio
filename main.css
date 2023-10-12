@@ -1,3 +1,48 @@
-body {
-  background-color: blueviolet;
+#body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 300px;
+  height: 800px;
+  background-color: black;
+  color: white;
+}
+
+#face {
+  position: relative;
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 30px 15px;
+  margin-bottom: 50px;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
